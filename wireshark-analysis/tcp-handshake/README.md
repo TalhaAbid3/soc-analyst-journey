@@ -26,8 +26,7 @@ To capture and analyze the TCP 3-way handshake process using Wireshark, and unde
 - **Destination IP / Port:** 140.248.129.91 / 443
 - **Flag:** SYN
 - **Sequence Number:** Seq = 0
-
-![SYN Packet](screenshot-syn.png)
+![TCP Handshake Packets](wireshark%20(2).png)
 
 The client (Kali VM) sends a SYN packet to the server, requesting to open a connection and proposing an initial sequence number.
 
@@ -36,8 +35,7 @@ The client (Kali VM) sends a SYN packet to the server, requesting to open a conn
 - **Destination IP / Port:** 10.0.2.15 / 36082
 - **Flags:** SYN, ACK
 - **Sequence / Acknowledgment Number:** Seq = 0, Ack = 1
-
-![SYN-ACK Packet](screenshot-syn-ack.png)
+![TCP Handshake Packets](wireshark%20(2).png)
 
 The server acknowledges the client's SYN and responds with its own SYN, confirming it's ready to establish the connection.
 
@@ -46,8 +44,7 @@ The server acknowledges the client's SYN and responds with its own SYN, confirmi
 - **Destination IP / Port:** 140.248.129.91 / 443
 - **Flag:** ACK
 - **Sequence / Acknowledgment Number:** Seq = 1, Ack = 1
-
-![ACK Packet](screenshot-ack.png)
+![TCP Handshake Packets](wireshark%20(2).png)
 
 The client acknowledges the server's response, completing the 3-way handshake. The TCP connection is now established.
 
