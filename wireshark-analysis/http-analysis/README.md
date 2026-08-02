@@ -22,6 +22,7 @@ http-packet-list.png
 ## 📸 Findings
 
 ### Packet 153 — HTTP GET Request
+![HTTP Packet List](http-packet-list.png)
 - **Source IP / Port:** 10.0.2.15 / 54860
 - **Destination IP / Port:** 34.223.124.45 / 80
 - **Request Line:** `GET / HTTP/1.1`
@@ -33,9 +34,10 @@ http-packet-list.png
 - **Status Line:** `HTTP/1.1 200 OK`
 - **Content-Type:** `text/html; charset=UTF-8`
 - **Length:** 1027 bytes
+![HTTP GET Request Details](http-get-request.png)
 
+![HTTP Response Details](http-response.png)
 ### Follow HTTP Stream — Full Plaintext Exchange
-http-get-request.png
 
 **Request headers observed:**
 ```
