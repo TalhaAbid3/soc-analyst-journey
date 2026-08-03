@@ -45,8 +45,7 @@ Browsers commonly send both an A (IPv4) and AAAA (IPv6) query at nearly the same
 - **Source IP / Port:** 10.224.147.139 / 53
 - **Destination IP / Port:** 10.0.2.15 / 45601
 - **Response:** Standard query response `0xbc82`, type AAAA — same CNAME chain resolved
-
-dns-query-list.png
+![DNS Query and Response Packets](dns-query-list.png)
 
 ## 🔎 Follow UDP Stream — CNAME Resolution
 
@@ -55,8 +54,7 @@ Following the UDP stream clearly shows the resolution chain:
 ```
 ads.mozilla.org  →  CNAME  →  mozilla.map.fastly.net
 ```
-
-dns-udp-stream.png
+![Follow UDP Stream showing CNAME resolution](dns-udp-stream.png)
 
 ## 🧠 Key Observation
 
