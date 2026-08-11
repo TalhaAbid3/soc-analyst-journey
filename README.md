@@ -16,8 +16,8 @@ Land a SOC Analyst internship by building strong fundamentals in networking, ope
 - [x] **Wireshark & Packet Analysis** — packet capture, TCP handshake, DNS queries, traffic inspection
 - [x] **Operating Systems (Linux + Windows)** — file systems, permissions, Event Viewer, Active Directory, PowerShell
 - [ ] **Security Fundamentals** — CIA Triad, common attacks, encryption/hashing basics
-- [ ] **SIEM Tools** — Splunk / ELK Stack, log ingestion, correlation, alert triage
-- [ ] **MITRE ATT&CK Framework**
+- [x] **SIEM Tools** — Splunk / ELK Stack, log ingestion, correlation, alert triage
+- [x] **MITRE ATT&CK Framework**
 - [ ] **Incident Response Basics**
 - [ ] **Hands-on Labs** — TryHackMe (SOC Level 1), LetsDefend, CyberDefenders
 
