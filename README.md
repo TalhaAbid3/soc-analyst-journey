@@ -15,7 +15,7 @@ Land a SOC Analyst internship by building strong fundamentals in networking, ope
 - [x] **Networking Fundamentals** — OSI/TCP-IP model, IP addressing, subnetting, NAT, core protocols (TCP, UDP, DNS, DHCP, ARP, ICMP), HTTP/TLS, VPNs/Proxies/Tor
 - [x] **Wireshark & Packet Analysis** — packet capture, TCP handshake, DNS queries, traffic inspection
 - [x] **Operating Systems (Linux + Windows)** — file systems, permissions, Event Viewer, Active Directory, PowerShell
-- [ ] **Security Fundamentals** — CIA Triad, common attacks, encryption/hashing basics
+- [x] **Security Fundamentals** — CIA Triad, common attacks, encryption/hashing basics
 - [x] **SIEM Tools** — Splunk / ELK Stack, log ingestion, correlation, alert triage
 - [x] **MITRE ATT&CK Framework**
 - [ ] **Incident Response Basics**
