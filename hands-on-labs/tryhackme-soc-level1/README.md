@@ -21,6 +21,9 @@ To apply the networking, OS, security theory, SIEM, MITRE ATT&CK, and incident r
 - Used the **IP Hunter** tool to investigate/verify the malicious IP before taking further action
 - **Escalated** the alert to the SOC team lead (Will) for review
 - Used the **Firewall** tab to block the malicious IP, receiving a confirmation flag after successful containment
+  ![SIEM Dashboard with alerts](room1-siem-dashboard.png)
+
+![Firewall block confirmation](room1-firewall-block.png)
 
 ### Key Concept Reinforced
 This mirrored the exact **Identification → Escalation → Containment** flow I documented conceptually in my Incident Response Basics writeup — except this time performed hands-on, in order, against a live simulated dashboard.
@@ -43,7 +46,7 @@ An interactive challenge required matching 7 security professionals to 7 differe
 | Check new software version for vulnerabilities | **Penetration Tester** |
 | SIEM unavailable due to storage limit | **SOC Engineer** |
 | Threat group (FIN7) actively targeting the company | **Threat Researcher** |
-
+![Role matching challenge](room2-role-matching.png)
 ### Key Concept Reinforced
 - **L1 vs L2:** L1 handles initial triage; L2 handles deeper investigation
 - Major incidents (like ransomware) go to a dedicated **emergency response team (CERT)**, not L1
@@ -83,7 +86,9 @@ Working with a simulated alert queue:
 - Reviewed alert fields (host, process, user, target file) to understand the reported activity
 - Investigated the activity in the simulated SIEM before making a verdict
 - Successfully triaged the alert and received a completion flag
+![Alert queue](room3-alert-queue.png)
 
+![Triage workflow diagram](room3-workflow-diagram.png)
 ### Key Concept Reinforced
 - **Not every alert is a real threat** — the "Unusual VPN Login Location" alert in the queue had already been closed as a **False Positive**, while "Bruteforce Attack from External" was a confirmed **True Positive**. Distinguishing between the two is one of the most important daily judgment calls an L1 analyst makes
 - **Prioritization by severity** (Critical > High > Medium > Low) determines what gets worked first when multiple alerts are open at once — directly reflecting real SOC workload management
