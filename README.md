@@ -18,8 +18,8 @@ Land a SOC Analyst internship by building strong fundamentals in networking, ope
 - [x] **Security Fundamentals** — CIA Triad, common attacks, encryption/hashing basics
 - [x] **SIEM Tools** — Splunk / ELK Stack, log ingestion, correlation, alert triage
 - [x] **MITRE ATT&CK Framework**
-- [ ] **Incident Response Basics**
-- [ ] **Hands-on Labs** — TryHackMe (SOC Level 1), LetsDefend, CyberDefenders
+- [x] **Incident Response Basics**
+- [x] **Hands-on Labs** — TryHackMe (SOC Level 1), LetsDefend, CyberDefenders
 
 ## 📁 Repo Structure
 soc-analyst-journey/
